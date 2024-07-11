@@ -1,12 +1,18 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
     display: flex;
     justify-content: space-evenly;
     background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
 }
 
 ul{
@@ -14,6 +20,8 @@ ul{
     display: flex;
     gap: 20px;
     margin: 0;
+    font-size: 18px;
+    align-items: center;
 }
 
 a{
@@ -23,4 +31,45 @@ a{
 
 .content{
     display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 30px;
+    flex-basis: 400px;
+    flex-wrap: wrap;
+}
+
+.placeholder{
+    font-size: 20px;
+    background-color: grey;
+    box-sizing: border-box;
+    width: 590px;
+    height: 200px;
+    padding: 90px;
+    align-self:center;
+    text-align: center;
+    margin-top: -200px;
+    margin-right: -550px;
+}
+
+.subtext{
+    font-size: 18px;
+    width: 450px;
+    margin-left: 400px;
+    color: white;
+}
+
+.subtext.head{
+    font-size: 48px;
+    margin-top: 70px;
+}
+
+button{
+    cursor: pointer;
+    width: fit-content;
+    margin-left: 400px;
+    padding: 6px 20px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
 }
