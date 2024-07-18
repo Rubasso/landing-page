@@ -51,14 +51,14 @@ a{
     margin-right: -550px;
 }
 
-.subtext{
+.hero{
     font-size: 18px;
     width: 450px;
     margin-left: 400px;
     color: white;
 }
 
-.subtext.head{
+.hero.head{
     font-size: 48px;
     margin-top: 70px;
 }
@@ -80,6 +80,7 @@ button{
     width: 150px;
     border: #3882F6 5px solid;
     border-radius: 15px;
+    margin-bottom: 5px;
 }
 
 .title{
@@ -124,4 +125,42 @@ button{
     display: flex;
     align-self: flex-end;
     padding-right: 470px;
+}
+
+.rectangle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 470px;
+    margin-bottom: 100px;
+    max-width: 900px;
+    flex-basis: 70px;
+    padding: 40px 90px;
+    background-color: #3882F6;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.subtext{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sub{
+    color: white;
+}
+
+.bottom{
+    display: flex;
+    align-self: flex-end;
+    border:white solid 2px;
+    margin-top: -40px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px;
 }
